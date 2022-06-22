@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/.gradle/caches/transforms-3/2904ba37790ec99e355aa7fd078c0bff/transformed/core-1.7.0/res/layout/custom_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/add_button.xml" value="0.128" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/btn_zero2.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/chat_custom_view.xml" value="0.1355" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/chat_custom_view_off.xml" value="0.1355" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/chats_view_customer.xml" value="0.1355" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/custome_1.xml" value="0.114" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/custome_bar_bottom.xml" value="0.114" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ic_baseline_arrow_back_ios_24.xml" value="0.128" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/nav_view_backgrount.xml" value="0.114" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ram_edit.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/chats_view_customer.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/chats_view_customer_from.xml" value="0.118" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/ic_baseline_density_medium_24.xml" value="0.103" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/ic_baseline_group_24.xml" value="0.118" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/ic_people.xml" value="0.127" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.101" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.101" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/person.xml" value="0.118" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/activity_second.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/activity_spalsh_activiity.xml" value="0.165625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/edit_dialog.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_chat_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_chats_and_groups.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_controller.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_gifted_students.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_group_messages.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_groups_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_info.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_message_users.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_sign_in.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_students.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_students2.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_universitet_nizomi.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_university.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_veterans.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fromitem.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_container_onboarding.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_group_messages.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_message_from.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_message_to.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_user.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/nav_header.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/students_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/menu/nav_menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

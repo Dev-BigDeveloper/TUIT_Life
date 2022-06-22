@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/universityFragment"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:orderInCategory="1"
+        android:title="Universitet" />
+
+    <item
+        android:id="@+id/studentsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_graduated"
+        android:orderInCategory="2"
+        android:title="Talabalar" />
+
+    <item
+        android:id="@+id/veteransFragment"
+        android:icon="@drawable/ic_badge"
+        android:orderInCategory="3"
+        android:title="Faxriylar" />
+
+    <item
+        android:id="@+id/giftedStudentsFragment"
+        android:icon="@drawable/ic_talent_management"
+        android:orderInCategory="4"
+        android:title="Iqtidorli talabalar" />
+
+</menu>

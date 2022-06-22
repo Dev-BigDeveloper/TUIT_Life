@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/controllerFragment">
+    <fragment
+        android:id="@+id/controllerFragment"
+        android:name="com.example.tuitlife.controllerFragment.ControllerFragment"
+        android:label="fragment_controller"
+        tools:layout="@layout/fragment_controller" />
+    <fragment
+        android:id="@+id/veteransFragment2"
+        android:name="com.example.tuitlife.fragments.VeteransFragment"
+        android:label="fragment_veterans"
+        tools:layout="@layout/fragment_veterans" />
+    <fragment
+        android:id="@+id/giftedStudentsFragment2"
+        android:name="com.example.tuitlife.fragments.GiftedStudentsFragment"
+        android:label="fragment_gifted_students"
+        tools:layout="@layout/fragment_gifted_students" />
+    <fragment
+        android:id="@+id/studentsFragment2"
+        android:name="com.example.tuitlife.fragments.StudentsFragment"
+        android:label="fragment_students"
+        tools:layout="@layout/fragment_students" />
+    <fragment
+        android:id="@+id/universityFragment2"
+        android:name="com.example.tuitlife.fragments.UniversityFragment"
+        android:label="fragment_university"
+        tools:layout="@layout/fragment_university" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.tuitlife.controllerFragment.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.tuitlife.chatsFragments.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/chatsAndGroupsFragment"
+        android:name="com.example.tuitlife.chatsFragments.ChatsAndGroupsFragment"
+        android:label="fragment_chats_and_groups"
+        tools:layout="@layout/fragment_chats_and_groups" />
+    <fragment
+        android:id="@+id/groupMessagesFragment"
+        android:name="com.example.tuitlife.chatsFragments.GroupMessagesFragment"
+        android:label="fragment_group_messages"
+        tools:layout="@layout/fragment_group_messages" />
+    <fragment
+        android:id="@+id/messageFragmentUsers"
+        android:name="com.example.tuitlife.chatsFragments.MessageFragmentUsers"
+        android:label="fragment_message_users"
+        tools:layout="@layout/fragment_message_users" />
+    <fragment
+        android:id="@+id/universitetNizomiFragment"
+        android:name="com.example.tuitlife.infoFragments.UniversitetNizomiFragment"
+        android:label="fragment_universitet_nizomi"
+        tools:layout="@layout/fragment_universitet_nizomi" />
+    <fragment
+        android:id="@+id/studentsFragment3"
+        android:name="com.example.tuitlife.infoFragments.StudentsFragment"
+        android:label="fragment_students2"
+        tools:layout="@layout/fragment_students2" />
+</navigation>

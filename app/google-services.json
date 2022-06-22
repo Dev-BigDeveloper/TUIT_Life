@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "240612232133",
+    "project_id": "tuit-life",
+    "storage_bucket": "tuit-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240612232133:android:e76edd4bb226a46cbdd9ac",
+        "android_client_info": {
+          "package_name": "com.example.tuitlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240612232133-49bi2phkokspbsovt8npvedtd5p3pnfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tuitlife",
+            "certificate_hash": "37af6a0ad2bc42d5fc2e6a4fc0424d7c7c24180e"
+          }
+        },
+        {
+          "client_id": "240612232133-65e6ot6dbv0i79nqplac979iradiqbtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARInGFA823Exyexo-Soo54-yMMOYEOolg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240612232133-65e6ot6dbv0i79nqplac979iradiqbtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
