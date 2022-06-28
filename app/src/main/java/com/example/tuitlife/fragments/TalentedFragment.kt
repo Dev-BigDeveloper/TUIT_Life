@@ -1,24 +1,21 @@
 package com.example.tuitlife.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.tuitlife.R
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import com.example.tuitlife.adapters.InfoAdapter
+import com.example.tuitlife.databinding.FragmentTalentedBinding
+import com.example.tuitlife.models.Rektorat
+import com.example.tuitlife.viewModel.DataModel
+import com.google.firebase.database.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [TalentedFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class TalentedFragment : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -30,24 +27,46 @@ class TalentedFragment : Fragment() {
         }
     }
 
+    private lateinit var binding: FragmentTalentedBinding
+    private lateinit var firebaseDatabase: FirebaseDatabase
+    private lateinit var reference: DatabaseReference
+    private lateinit var list: ArrayList<Rektorat>
+    private lateinit var adapter: InfoAdapter
+    private val modelData: DataModel by activityViewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_talented, container, false)
+    ): View {
+        binding = FragmentTalentedBinding.inflate(inflater, container, false)
+        list = ArrayList()
+        firebaseDatabase = FirebaseDatabase.getInstance()
+        reference = firebaseDatabase.getReference("tatuCareer")
+        modelData.message.value = 3
+        reference.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                list.clear()
+                val children = snapshot.children
+                for (child in children) {
+                    if (child.value != null) {
+                        binding.progressBar.hide()
+                        val value = child.getValue(Rektorat::class.java)
+                        if (value != null) {
+                            list.add(value)
+                        }
+                        adapter = InfoAdapter(list)
+                        binding.rv.adapter = adapter
+                    }
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+            }
+        })
+        return binding.root
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment TalentedFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             TalentedFragment().apply {

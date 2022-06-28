@@ -30,6 +30,8 @@ class StudentsFragment : Fragment() {
     ): View {
         binding = FragmentStudents2Binding.inflate(inflater,container,false)
 
+
+
         return binding.root
     }
 

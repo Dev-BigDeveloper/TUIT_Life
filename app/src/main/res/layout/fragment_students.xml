@@ -103,6 +103,7 @@
         app:cardCornerRadius="20dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/chetELdaMagstr"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/purple_700"
@@ -113,7 +114,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:paddingStart="10dp"
-                android:text="Chet elda magstratura"
+                android:text="Chet elda magistratura"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -189,6 +190,7 @@
         app:cardCornerRadius="20dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/faxrliUstozlar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/purple_700"
@@ -199,7 +201,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:paddingStart="10dp"
-                android:text="Goyalar va takliflar bo`lsa"
+                android:text="Faxrli ustozlarimmiz"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 app:layout_constraintBottom_toBottomOf="parent"

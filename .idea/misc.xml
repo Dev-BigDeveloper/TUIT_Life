@@ -16,6 +16,7 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ic_baseline_notifications_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/nav_view_backgrount.xml" value="0.114" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable-v24/ram_edit.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/back_web_view.xml" value="0.1205" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/chats_view_customer.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/chats_view_customer_from.xml" value="0.118" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/drawable/ic_baseline_density_medium_24.xml" value="0.103" />
@@ -37,12 +38,17 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_groups_list.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_info.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_message_users.xml" value="0.1796875" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_sign_in.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_scholarship.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_students.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_students2.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_talented.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_tuter.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_universitet_nizomi.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_university.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_university_history.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_veterans.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fragment_web_view.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/fromitem.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_container_onboarding.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_group_messages.xml" value="0.1796875" />
@@ -51,6 +57,8 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/item_user.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/nav_header.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/students_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/students_item2.xml" value="0.1796875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/layout/web_view.xml" value="0.1796875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TUITLife/app/src/main/res/menu/nav_menu.xml" value="0.1796875" />
       </map>
     </option>

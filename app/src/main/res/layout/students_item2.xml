@@ -36,21 +36,20 @@
             <TextView
                 android:id="@+id/nameItem"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="UserName Lastname"
                 android:textColor="@color/white"
-                android:paddingBottom="10dp"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/infoItem"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
                 android:paddingRight="10dp"
                 android:text="Telekomunikatsiya texnologoyalari fakulteti 420-19 gruppa talabasi"
                 android:textColor="@color/white"

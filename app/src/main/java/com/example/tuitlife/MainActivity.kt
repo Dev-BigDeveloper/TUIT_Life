@@ -68,20 +68,20 @@ class MainActivity : AppCompatActivity() {
         val list = ArrayList<OnBoardingItem>()
         val onBoardingItem = OnBoardingItem(
             R.drawable.splash1,
-            "Universitetimmiz haqida umumiy malumotlar"
+            "Universitetimmiz haqida umumiy ma`lumotlar"
         )
         val onBoardingItem1 = OnBoardingItem(
             R.drawable.img_1,
-            "Talabalarimmiz haqida malumot"
+            "Talabalarimiz haqida malumot"
         )
         val onBoardingItem2 = OnBoardingItem(
             R.drawable.img_2,
-            "Faxriylarimmiz haqida malumot"
+            "Faxriylarimiz haqida malumot"
         )
 
         val onBoardingItem3 = OnBoardingItem(
             R.drawable.people1,
-            "Chet davlatlari bilan xamkorlar haqida malumot"
+            "Chet davlatlari bilan hamkorlar haqida malumot"
         )
 
         list.add(onBoardingItem)

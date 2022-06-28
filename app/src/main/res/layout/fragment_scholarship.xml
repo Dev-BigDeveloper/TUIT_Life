@@ -1,14 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".infoFragments.ScholarshipFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/at_krv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/purple_700"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="AT va KRV stiopendiyasi nizomi"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/prezident"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_700"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Bakalavrlar uchun Prezident stipendiyasi nizomi"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/beruniy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_700"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Beruniy nomli davlat stipendiyasi nizomi"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xorazmiy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_700"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Muhammad al-Xorazmiy stipendiyasi nizomi"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/prezidentAndBeriniyg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_700"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="ПФ-6309 Prezident va Beruniy stipendiyalariga 2021 yilda kiritilgan"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

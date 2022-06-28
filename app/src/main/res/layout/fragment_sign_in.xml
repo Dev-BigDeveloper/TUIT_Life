@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Assalomu aleykum siz ush TATU iqtidorli talabalar bo`limidasiz, siz ushbu bo`limda iqtidorli talabalar va chet el magstraturada o`aiydigan talabalar bilan muloqot qilishigiz mumkin"
+        android:text="Assalomu aleykumб siz TATU iqtidorli talabalar bo`limidasiz, siz ushbu bo`limda iqtidorli talabalar va chet el magistraturada tahsil oladiga talabalar bilan muloqot qilishigiz mumkin."
         app:layout_constraintBottom_toTopOf="@+id/signBtn"
         android:textSize="20sp"
         android:gravity="center"

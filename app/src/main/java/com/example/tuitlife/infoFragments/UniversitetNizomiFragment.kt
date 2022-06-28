@@ -39,10 +39,9 @@ class UniversitetNizomiFragment : Fragment() {
 
         reference.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                if (snapshot != null){
-                    val str = snapshot.value
-                    binding.info.text = str.toString()
-                }
+                binding.progressBar.hide()
+                val str = snapshot.value
+                binding.info.text = str.toString()
             }
 
             override fun onCancelled(error: DatabaseError) {

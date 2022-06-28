@@ -42,24 +42,13 @@ class InfoFragment : Fragment() {
         firebaseDatabase = FirebaseDatabase.getInstance()
         reference = firebaseDatabase.getReference("rektorat")
 
-//        binding.imageInfo.setOnClickListener {
-//            var rektorat = Rektorat(
-//                "Li Dmitriy Eduardovich",
-//                "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti professional ta’lim muassasalari, akademik litsey va filiallar bo‘yicha prorektori.",
-//                "https://static.tuit.uz/uploads/1/720__qrBOu5RRVHqnezHx6uKJb7R_28oaiZfg.jpg"
-//            )
-//
-//            val key = reference.push().key
-//            reference.child("$key")
-//                .setValue(rektorat)
-//        }
-
         reference.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 list.clear()
                 val children = snapshot.children
                 for (child in children) {
                     if (child.value != null) {
+                        binding.progressBar.hide()
                         val value = child.getValue(Rektorat::class.java)
                         if (value != null) {
                             list.add(value)

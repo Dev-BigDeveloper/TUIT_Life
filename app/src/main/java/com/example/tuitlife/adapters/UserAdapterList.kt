@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 
-
 class UserAdapterList(private var list:List<UserMessagesService>, var onItemClickListener: OnItemClickListener) : RecyclerView.Adapter<UserAdapterList.Vh>(){
     inner class Vh(private var itemUserBinding: ItemUserBinding):RecyclerView.ViewHolder(itemUserBinding.root){
 

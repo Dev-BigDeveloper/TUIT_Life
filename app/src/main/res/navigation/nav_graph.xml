@@ -64,4 +64,29 @@
         android:name="com.example.tuitlife.infoFragments.StudentsFragment"
         android:label="fragment_students2"
         tools:layout="@layout/fragment_students2" />
+    <fragment
+        android:id="@+id/universityHistoryFragment"
+        android:name="com.example.tuitlife.infoFragments.UniversityHistoryFragment"
+        android:label="fragment_university_history"
+        tools:layout="@layout/fragment_university_history" />
+    <fragment
+        android:id="@+id/talentedFragment"
+        android:name="com.example.tuitlife.fragments.TalentedFragment"
+        android:label="fragment_talented"
+        tools:layout="@layout/fragment_talented" />
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.tuitlife.infoFragments.WebViewFragment"
+        android:label="fragment_web_view"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/scholarshipFragment"
+        android:name="com.example.tuitlife.infoFragments.ScholarshipFragment"
+        android:label="fragment_scholarship"
+        tools:layout="@layout/fragment_scholarship" />
+    <fragment
+        android:id="@+id/tuterFragment"
+        android:name="com.example.tuitlife.infoFragments.TuterFragment"
+        android:label="fragment_tuter"
+        tools:layout="@layout/fragment_tuter" />
 </navigation>
